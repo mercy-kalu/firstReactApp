@@ -27,7 +27,27 @@
 .App-link {
   color: #61dafb;
 }
+#all-product{
+display: flex;
+padding: 20px;
 
+}
+.product{
+  padding: 30px;
+  background-color: #f0f0f0;
+  border-radius: 6px;
+  margin-right: 10px;
+align-items: center;
+}
+.buy-button{
+  width: 100%;
+  background-color: blue;
+  color: white;
+  border-radius: 6px;
+  /* padding: 4px; */
+  font-weight: 500;
+ 
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
