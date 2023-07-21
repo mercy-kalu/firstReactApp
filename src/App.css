@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  display: flex;
+  height: 100vh;
+  justify-content: space-between;
 }
 
 .App-logo {
@@ -32,14 +34,23 @@ display: flex;
 padding: 20px;
 
 }
+#sideBar{padding: 20px;
+width: 400px;
+height: 100%;
+background-color: #f0f0f0;}
 .product{
   padding: 30px;
   background-color: #f0f0f0;
   border-radius: 6px;
   margin-right: 10px;
 align-items: center;
+height: 100px;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 .buy-button{
+  text-align: center;
   width: 100%;
   background-color: blue;
   color: white;
@@ -47,6 +58,34 @@ align-items: center;
   /* padding: 4px; */
   font-weight: 500;
  
+}
+.cart-product{
+  width: 100%;
+  padding: 20px 0px;
+}
+.product-btn{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.removeBtn{
+  margin-top: 10px;
+  width: 100%;
+  padding: 1-px 0px;
+  text-align: center;
+  background-color: red;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn{
+  padding: 30px;
+  border-radius: 10px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: #61dafb;
 }
 @keyframes App-logo-spin {
   from {

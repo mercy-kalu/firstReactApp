@@ -20,7 +20,7 @@ export const data = [
         id: 4,
     },
     {
-        name: 'Fift Product',
+        name: 'Fifth Product',
         price: 30,
         id: 5,
     }
