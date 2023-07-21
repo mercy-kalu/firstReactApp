@@ -17,6 +17,10 @@ function Cart(props) {
   setQty(new_qty)
  }
 
+    const removeCart = () => {
+        props.remove_function(props.id)
+    }
+    
  return (
   <div class="cart-product">
    <p>{props.name}( ${props.price})</p>
